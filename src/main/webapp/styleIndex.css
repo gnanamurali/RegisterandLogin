@@ -1,0 +1,102 @@
+@charset "UTF-8";
+*{
+    
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+body
+{
+    background-image: url(img3.jpg);
+    background-size: cover;
+}
+
+h1{
+    display: flex;
+    font-weight:bolder;
+    font-style: italic;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12rem;
+
+
+}
+div{
+    display: block;
+}
+
+.logbutton{
+
+    height: 100px;
+    width: 300px;
+    color: white;
+    margin-top: 5rem ; 
+    font-size: 1.6rem;
+    font-weight:650;
+    margin-left:auto;
+    margin-right: auto;
+    background-image: none;
+    background-color: #4D6A6D;
+    border: 4px groove black;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.logbutton a{
+    width: 100%;
+    height: 100%;
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration:none;
+
+}
+
+.regbutton{
+    height: 100px;
+    width: 300px;
+    color: white;
+    margin-top: 3rem ; 
+    font-size: 1.6rem;
+    font-weight:650;
+    margin-left:auto;
+    margin-right: auto;
+    background-image: none;
+    background-color: #4D6A6D;
+    border: 4px groove black;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.regbutton a{
+    width: 100%;
+    height: 100%;
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration:none;
+
+}
+
+.extrainfo{
+    margin-top:10px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight:normal;
+    color: #ddd;
+}
+
+.logbutton a:hover,
+.regbutton a:hover {
+    background-color: #355354; 
+    transition: 0.3s ease;
+    transform: scale(1.05);
+}
+
+

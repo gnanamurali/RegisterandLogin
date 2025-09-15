@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styleReg.css">
+<title>Create Account</title>
+</head>
+<body>
+	<h1>Create your account</h1>
+	<div class="regdetails">
+	<form action="regform" method="post">
+		<p>Enter Name</p><input type="text" name="userName"> <br><br>
+		<p>Enter Email</p><input type="text" name="userEmail"><br><br>
+		<p>Enter Create Password (max 15 Characters)</p><input type="password" name="userPwd"><br><br>
+		<p>Phone:</p><input type="number" name="userPh"><br><br>
+		<p>Select Gender</p>
+		<div class="gender-options">
+    		<label><input type="radio" name="userGender" value="MALE"> Male</label>
+    		<label><input type="radio" name="userGender" value="FEMALE"> Female</label>
+  		</div>
+		<p>Enter City:</p>
+		<select name="userCity">
+			<option value="Not given">Select City</option>
+			<option value="Bengaluru">Bengaluru</option>
+			<option value="Mumbai">Mumbai</option>
+			<option value="Delhi">Delhi</option>
+			<option value="Kolkata">Kolkata</option>
+			<option value="Chennai">Chennai</option>
+			<option value="Lucknow">Lucknow</option>
+		</select><br><br>
+		<input class="subButton" type="submit" value="Create Account">
+	</form>
+	</div>
+</body>
+</html>
