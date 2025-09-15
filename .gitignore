@@ -1,0 +1,14 @@
+# Ignore build output
+build/
+bin/
+*.class
+
+# Ignore IDE settings
+.settings/
+.metadata/
+
+# Ignore logs
+*.log
+
+# Ignore local database config
+db.properties
