@@ -8,6 +8,11 @@ A simple Java-based project (built in Eclipse) that demonstrates user registrati
 3. Configure your database connection in the code.
 4. Run on server.
 
+## Database Setup
+1. Open MySQL.
+2. Create database by running:
+   mysql -u root -p < database/loginandregister.sql
+
 ## Technologies Used
 - Java (Servlets + JSP)
 - MySQL
